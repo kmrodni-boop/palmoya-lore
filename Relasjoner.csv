@@ -1,0 +1,44 @@
+﻿PrimaryKey,Historikk,Type_K1_to_K2,Type_K2_to_K1,Karakter1_ID,Karakter2_ID,Kallenavn_K1_to_K2,Kallenavn_K2_to_K1,Sted_ID,Tidslinje_ID
+REL-1,"Etablert: skole 1. klasse,tidligere seksuelt intime på fester og hjemme","Eks-intim, Flørt, Venn","Eks-intim, Flørt, Venn",KAR-1,KAR-2,N,M,,
+REL-2,Etablering: Fødsel,Datter,Mor,KAR-1,KAR-22,Mamma,Gullet mitt,,
+REL-3,Etablering: Fødsel KAR-1,Lillesøster,Storesøster,KAR-1,KAR-7,Søstern,Søstern,,
+REL-4,"Etablering: Utviklet uke 1 i 2025,Positiv graviditetstest uke 2 i 2025","Eks-flørt, Kjæreste","Eks-flørt, Kjæreste",KAR-1,KAR-4,"Kjæresten,Søtnosen","Kjæresten,Søtnos,Elskede",STE-7,"TID-11,TID-36,TID-162,TID-172,TID-174"
+REL-5,Etablering: Fødsel KAR-1,"Barnebarn, Kollega","Farfar, Kollega",KAR-1,KAR-5,Bestefar,Veslejenta mi,,
+REL-6,Etablering: Fødsel,Datter,Far,KAR-1,KAR-6,Pappa,Baby’en,,
+REL-7,Etablert: Når KAR-1 startet skole 1. klasse,Venn,Venn,KAR-1,KAR-10,S,M,,
+REL-8,Etablert: Uke 2 i 2025 tur til STE-27,Venn,Venn,KAR-1,KAR-20,N/A,N/A,STE-10,TID-52
+REL-9,"Etablert: Mars 2023,KAR-1 seksuell debut 15 år,Brudd: Mai 2023",Eks-kjæreste,Eks-kjæreste,KAR-1,KAR-9,Eks’en,N/A,,
+REL-10,"Etablert: Juni 2024,Brudd: Juni 2024","Eks-flørt, Eks-intim","Eks-flørt, Eks-intim",KAR-1,KAR-19,N/A,N/A,,
+REL-11,Etablert: Når KAR-2 startet skole 1. klasse,"Flørt, Venn",Venn,KAR-2,KAR-10,S,N,,
+REL-12,Etablering: Uke 1 i 2025 pizza-kveld,"Flørt, Venn","Flørt, Venn",KAR-2,KAR-4,Alm,N/A,STE-7,TID-37
+REL-13,Etablering: Fødsel,Datter,Mor,KAR-2,KAR-11,Mutter’n,Jenta mi,,
+REL-14,Etablering: Fødsel,Datter,Far,KAR-2,KAR-24,Fatter’n,N/A,,
+REL-15,Etablering: Fødsel KAR-20,Storebror,Lillesøster,KAR-4,KAR-20,Søstern,Brodern,,
+REL-16,Etablering: Fødsel KAR-21,Storebror,Storebror,KAR-4,KAR-21,Brodern,Brodern,,
+REL-17,"Etablering: Mai 2014,KAR-4 seksuell debut 14 år,Brudd: Juni 2014",Eks-kjæreste,Eks-kjæreste,KAR-4,KAR-25,Eks’n,N/A,,
+REL-18,Etablering: 2023 ved aktivering av KAR-26 prototype i STE-10,"Bruker, Skaper, Venn","AI-assistent, Flørt, Venn",KAR-4,KAR-26,N/A,N/A,STE-10,
+REL-19,Etablering: Møte i STE-27 Uke 2 i 2025,Venn,Venn,KAR-4,KAR-7,N/A,N/A,STE-25,TID-54
+REL-20,Etablering: Fødsel,Far,Sønn,KAR-5,KAR-6,Gutt,Pappa,,
+REL-21,Etablering: KAR-22 gift med KAR-6 2002,Svigerfar,Svigerdatter,KAR-5,KAR-22,N/A,N/A,,
+REL-22,Etablering: Fødsel KAR-7,Farfar,Barnebarn,KAR-5,KAR-7,Jenta mi,Bestefar,,
+REL-23,Etablering: Giftemål i 2002,Ektemann,Kone,KAR-6,KAR-22,Konemor,Gubben,,
+REL-24,Etablering: Fødsel,Far,Datter,KAR-6,KAR-7,N/A,Pappa,,
+REL-25,Etablering: Fødsel,Datter,Mor,KAR-7,KAR-22,Mamma,Engelen min,,
+REL-26,Etablering: Møte i STE-27 Uke 2 i 2025,Venn,Venn,KAR-7,KAR-20,N/A,N/A,STE-25,TID-54
+REL-27,Etablering: under TID-158 (Midtsommerblót) 2023 mens KAR-8 ferie STE-5,"Eks-flørt, Samboer","Eks-flørt, Samboer",KAR-7,KAR-8,"Kjæresten,Samboer’n",Samboer’n,STE-30,TID-158
+REL-28,Etablering: Etterkant av REL-27,Venn,Venn,KAR-8,KAR-1,N/A,N/A,,
+REL-29,Etablering: Etterkant av REL-27,Venn,Venn,KAR-8,KAR-5,N/A,N/A,,
+REL-30,Etablering: Etterkant av REL-27,Venn,Venn,KAR-8,KAR-6,N/A,N/A,,
+REL-31,Etablering: Etterkant av REL-27,Venn,Venn,KAR-8,KAR-22,N/A,N/A,,
+REL-32,"Etablering: Sommer 2025 i Elida,Møte i STE-27 Uke 2 i 2025","Eks-kollega, Venn","Eks-kollega, Venn",KAR-8,KAR-4,N/A,N/A,"STE-27,STE-26","TID-55,TID-160"
+REL-33,Etablering: Uke 1 i 2025 pizza-kveld,Venn,Venn,KAR-10,KAR-4,N/A,N/A,STE-7,TID-37
+REL-34,Etablering: Fødsel,Datter,Far,KAR-10,KAR-27,Far,Gullet,,
+REL-35,Etablering: Giftemål 2007,Kone,Ektemann,KAR-11,KAR-24,N/A,N/A,,
+REL-36,Etablering: Da KAR-2 startet på skolen 2013,Venn,Venn,KAR-11,KAR-1,N/A,N/A,,
+REL-37,Etablering: Ved fødsel,Tvillingsøster,Tvillingbror,KAR-20,KAR-21,Brodern,Søstern,,
+REL-38,Etablering: Uke 2 i 2025 tur til STE-27,"Bruker, Flørt, Venn","AI-assistent, Flørt, Rival",KAR-1,KAR-26,N/A,N/A,STE-10,TID-47
+REL-39,Etablering: Uke 3 i 2025 i STE-19,"Bruker, Flørt","AI-assistent, Flørt",KAR-2,KAR-26,Beste,Søta,,
+REL-40,Etablering: Uke 2 i 2025 middag i STE-6,Kommende svigersønn,Mor kjæreste,KAR-4,KAR-22,Lena,Marius,STE-6,TID-171
+REL-41,Etablering: Uke 2 i 2025 middag i STE-6,Kommende svigersønn,Far kjæreste,KAR-4,KAR-6,Erik,Marius,STE-6,TID-171
+REL-42,Etablering: Fødsel,Datter,Mor,KAR-10,KAR-31,Mami,Muñeca,,
+REL-43,"Etablering: Traff hverandre fysisk første gang 2005, brevvenner før det.",Kone,Ektemann,KAR-31,KAR-27,Mi vida,Skatten,,
