@@ -1,8 +1,8 @@
-﻿PrimaryKey,Historikk,Type_K1_to_K2,Type_K2_to_K1,Karakter1_ID,Karakter2_ID,Kallenavn_K1_to_K2,Kallenavn_K2_to_K1,Sted_ID,Tidslinje_ID
-REL-1,"Etablert: skole 1. klasse,tidligere seksuelt intime på fester og hjemme","Eks-intim, Flørt, Venn","Eks-intim, Flørt, Venn",KAR-1,KAR-2,N,M,,
+PrimaryKey,Historikk,Type_K1_to_K2,Type_K2_to_K1,Karakter1_ID,Karakter2_ID,Kallenavn_K1_to_K2,Kallenavn_K2_to_K1,Sted_ID,Tidslinje_ID
+REL-1,"Etablert: skole 1. klasse,seksuelt intime på fester og hjemme siden 8. klasse","Flørt, Intim, Venn","Flørt, Intim, Venn",KAR-1,KAR-2,N,M,,TID-184
 REL-2,Etablering: Fødsel,Datter,Mor,KAR-1,KAR-22,Mamma,Gullet mitt,,
 REL-3,Etablering: Fødsel KAR-1,Lillesøster,Storesøster,KAR-1,KAR-7,Søstern,Søstern,,
-REL-4,"Etablering: Utviklet uke 1 i 2025,Positiv graviditetstest uke 2 i 2025","Eks-flørt, Kjæreste","Eks-flørt, Kjæreste",KAR-1,KAR-4,"Kjæresten,Søtnosen","Kjæresten,Søtnos,Elskede",STE-7,"TID-11,TID-36,TID-162,TID-172,TID-174"
+REL-4,"Etablering: Utviklet uke 1 i 2025,Positiv graviditetstest uke 2 i 2025","Eks-flørt, Kjæreste","Eks-flørt, Kjæreste",KAR-1,KAR-4,"Kjæresten,Søtnosen","Kjæresten,Søtnos,Elskede",STE-7,"TID-11,TID-36,TID-162,TID-172,TID-174,TID-177,TID-184"
 REL-5,Etablering: Fødsel KAR-1,"Barnebarn, Kollega","Farfar, Kollega",KAR-1,KAR-5,Bestefar,Veslejenta mi,,
 REL-6,Etablering: Fødsel,Datter,Far,KAR-1,KAR-6,Pappa,Baby’en,,
 REL-7,Etablert: Når KAR-1 startet skole 1. klasse,Venn,Venn,KAR-1,KAR-10,S,M,,
@@ -10,7 +10,7 @@ REL-8,Etablert: Uke 2 i 2025 tur til STE-27,Venn,Venn,KAR-1,KAR-20,N/A,N/A,STE-1
 REL-9,"Etablert: Mars 2023,KAR-1 seksuell debut 15 år,Brudd: Mai 2023",Eks-kjæreste,Eks-kjæreste,KAR-1,KAR-9,Eks’en,N/A,,
 REL-10,"Etablert: Juni 2024,Brudd: Juni 2024","Eks-flørt, Eks-intim","Eks-flørt, Eks-intim",KAR-1,KAR-19,N/A,N/A,,
 REL-11,Etablert: Når KAR-2 startet skole 1. klasse,"Flørt, Venn",Venn,KAR-2,KAR-10,S,N,,
-REL-12,Etablering: Uke 1 i 2025 pizza-kveld,"Flørt, Venn","Flørt, Venn",KAR-2,KAR-4,Alm,N/A,STE-7,TID-37
+REL-12,"Etablering: Uke 1 i 2025 pizza-kveld, Intim fra uke 2 2025","Flørt, Intim, Venn","Flørt, Intim, Venn",KAR-2,KAR-4,"Kjekken,Alm",Søta,STE-7,"TID-37,TID-184,TID-185"
 REL-13,Etablering: Fødsel,Datter,Mor,KAR-2,KAR-11,Mutter’n,Jenta mi,,
 REL-14,Etablering: Fødsel,Datter,Far,KAR-2,KAR-24,Fatter’n,N/A,,
 REL-15,Etablering: Fødsel KAR-20,Storebror,Lillesøster,KAR-4,KAR-20,Søstern,Brodern,,
