@@ -6,80 +6,23 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
     h1 { color: #228B22; } /* Tropisk grønn */
-    h2 { color: #0066cc; }
     ul { list-style-type: none; padding: 0; }
     li { margin: 10px 0; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-    th { background-color: #f2f2f2; }
-    #karaktererTable { display: none; } /* Skjul til lastet */
-    .loading { text-align: center; color: #666; }
   </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
   <h1>🌴 Palmøya Lore Arkiv</h1>
   <p>Velkommen til Palmøya-universet! Her finner du fulle datasett for karakterer, steder, tidslinjer og relasjoner i vårt tropiske rollespill.</p>
   <h2>Dokumenter</h2>
   <ul>
-    <li><a href="#" onclick="loadKarakterer()">Karakterer.csv</a> – Full liste og beskrivelser av hovedkarakterer</li>
-    <li>Karakterer lastes dynamisk... (se tabell under)</li>
-    <!-- Legg til flere <li> for andre filer hvis du vil, f.eks. <li><a href="#" onclick="loadTidslinje()">Tidslinje.csv</a></li> -->
+    <li><a href="https://github.com/kmrodni-boop/palmoya-lore/raw/main/Karakterer.csv">Karakterer.csv</a> – Full liste og beskrivelser av karakterer</li>
+    <li><a href="https://github.com/kmrodni-boop/palmoya-lore/raw/main/Tidslinje.csv">Tidslinje.csv</a> – Hendelser fra september 2025</li>
+    <li><a href="https://github.com/kmrodni-boop/palmoya-lore/raw/main/Steder.csv">Steder.csv</a> – Palmstad, Sørstrand, Tropisk Lagune</li>
+    <li><a href="https://github.com/kmrodni-boop/palmoya-lore/raw/main/Relasjoner.csv">Relasjoner.csv</a> – Forbindelser mellom karakterer</li>
+    <li><a href="https://github.com/kmrodni-boop/palmoya-lore/raw/main/Bok.csv">Bok.csv</a> – Lange og korte oppsummeringer av tidligere RP</li>
+    <li><a href="https://github.com/kmrodni-boop/palmoya-lore/raw/main/Palmoya.md">Palmoya.md</a> – Øyas historie, kultur, økonomi, idrett og høytider</li>
   </ul>
-  <div id="karaktererContainer">
-    <p class="loading">Laster Karakterer.csv...</p>
-    <table id="karaktererTable"></table>
-  </div>
   <p><a href="https://github.com/kmrodni-boop/palmoya-lore">Tilbake til GitHub-repo</a></p>
-
-  <script>
-    function loadKarakterer() {
-      const container = document.getElementById('karaktererContainer');
-      const table = document.getElementById('karaktererTable');
-      const loading = document.querySelector('.loading');
-      loading.textContent = 'Laster Karakterer.csv...';
-      table.style.display = 'none';
-
-      Papa.parse('/Karakterer.csv', {  // Relative path til CSV-filen i repoet
-        download: true,
-        header: true,
-        complete: function(results) {
-          loading.style.display = 'none';
-          table.innerHTML = ''; // Tøm tabell
-          if (results.data.length === 0) {
-            table.innerHTML = '<tr><td>Ingen data funnet.</td></tr>';
-          } else {
-            // Headers
-            const headers = Object.keys(results.data[0]);
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-              const th = document.createElement('th');
-              th.textContent = header;
-              headerRow.appendChild(th);
-            });
-            table.appendChild(headerRow);
-            // Data-rader
-            results.data.forEach(row => {
-              const tr = document.createElement('tr');
-              headers.forEach(header => {
-                const td = document.createElement('td');
-                td.textContent = row[header] || '';
-                tr.appendChild(td);
-              });
-              table.appendChild(tr);
-            });
-          }
-          table.style.display = 'table';
-        },
-        error: function(error) {
-          loading.textContent = 'Feil ved lasting av Karakterer.csv: ' + error;
-        }
-      });
-    }
-    // Auto-last når siden laster
-    loadKarakterer();
-  </script>
 </body>
-</html>
